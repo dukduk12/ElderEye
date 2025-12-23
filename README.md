@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./docs/images/eldereye-logo.png" width="180" alt="ElderEye Logo"/>
+  <img src="./doc/images/eldereye-logo.png" width="180" alt="ElderEye Logo"/>
 </p>
 
 <h1 align="center">👁️‍🗨️ ElderEye: Family-Centered IoT Smart Care System</h1>
@@ -19,7 +19,7 @@ Each service can be deployed independently, with comprehensive system monitoring
 ---
 ## ⚙️ System Architecture
 <p align="center">
-  <img src="./docs/images/eldereye-architecture.png" alt="System Architecture" width="700"/>
+  <img src="./doc/images/eldereye-architecture.png" alt="System Architecture" width="700"/>
 </p>
 This architecture diagram illustrates the interaction among the mobile frontend, backend microservices, gRPC-based machine learning inference server, and IoT devices deployed in the elderly’s environment.
 
@@ -52,7 +52,7 @@ This architecture diagram illustrates the interaction among the mobile frontend,
 
 | App Home Screen       | Live Streaming Screen  | Alert Tab Screen      | Notification Detected Screen |
 |----------------------|-----------------------|----------------------|-----------------------------|
-| <img src="./docs/images/app-home.png" alt="ElderEye App Home Screen" width="250"/> | <img src="./docs/images/app-stream.png" alt="ElderEye Live Streaming Screen" width="250"/> | <img src="./docs/images/app-alert.png" alt="ElderEye Alert Tab Screen" width="250"/> | <img src="./docs/images/app-notification.png" alt="ElderEye Notification Detected Screen" width="250"/> |
+| <img src="./doc/images/app-home.png" alt="ElderEye App Home Screen" width="250"/> | <img src="./doc/images/app-stream.png" alt="ElderEye Live Streaming Screen" width="250"/> | <img src="./doc/images/app-alert.png" alt="ElderEye Alert Tab Screen" width="250"/> | <img src="./doc/images/app-notification.png" alt="ElderEye Notification Detected Screen" width="250"/> |
 | Home Dashboard       | Real-Time Video Streaming | Alert Tab View       | Detected Notification View   |
 
 ---
@@ -69,7 +69,7 @@ This architecture diagram illustrates the interaction among the mobile frontend,
 │   ├── 📄 init.sql                    # Database initialization & permission setup
 │   └── 📁 monitoring/                # 📊 Prometheus / Grafana configuration
 │
-├── 📁 docs/                 # 📚 Documentation and assets
+├── 📁 doc/                 # 📚 Documentation and assets
 │   └── 📁 images/           # 🖼️ Architecture diagrams, system flow, visuals
 │
 └── 📄 README.md             # Project overview and setup instructions
