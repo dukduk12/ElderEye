@@ -1,0 +1,29 @@
+services:
+  db-eldereye:
+    env_file:
+      - .env.prod
+    secrets:
+      - mysql_root_password
+    volumes:
+      - db_eldereye_data:/var/lib/mysql
+
+  app1:
+    env_file:
+      - .env.prod
+    secrets:
+      - mysql_app_password
+
+  app2:
+    env_file:
+      - .env.prod
+    secrets:
+      - mysql_app_password
+
+secrets:
+  mysql_root_password:
+    file: ./secrets/mysql_root_password.txt
+  mysql_app_password:
+    file: ./secrets/mysql_app_password.txt
+
+volumes:
+  db_eldereye_data:

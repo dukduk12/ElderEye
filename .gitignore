@@ -1,0 +1,14 @@
+# Ignore files generated for model
+alerts
+alerts_gradcam
+server1/migrations
+server1/alerts
+server1/__pycache__
+server1/*.pyc
+server1/.venv
+server1/.env
+server1/alembic.ini
+server1/alembic/versions
+docker-compose.yml
+.env.dev
+docker-compose.dev.yml
